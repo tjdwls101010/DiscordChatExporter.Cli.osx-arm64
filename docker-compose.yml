@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  discord-collector-api:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - DISCORD_TOKEN=${DISCORD_TOKEN}
+      - SUPABASE_URL=${SUPABASE_URL}
+      - SUPABASE_KEY=${SUPABASE_KEY}
+    volumes:
+      - ./logs:/app/logs  # 로그 볼륨 (선택사항)
+    restart: unless-stopped
+    
+  # 옵션: Nginx 프록시 (SSL 등을 위해)
+  nginx:
+    image: nginx:alpine
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf
+    depends_on:
+      - discord-collector-api
+    restart: unless-stopped 
