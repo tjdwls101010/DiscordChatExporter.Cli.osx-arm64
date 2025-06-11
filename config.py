@@ -40,6 +40,7 @@ API_PORT = int(os.getenv('API_PORT', 8000))
 
 # 메시지 수집 설정
 COLLECTION_DAYS = int(os.getenv('COLLECTION_DAYS', 5))
+COLLECTION_HOURS = int(os.getenv('COLLECTION_HOURS', 1))
 
 # 설정 확인 함수
 def validate_config():
@@ -67,7 +68,8 @@ def print_config():
     print(f"  ├─ 기본 서버: {DEFAULT_SERVER_ID}")
     print(f"  ├─ API 호스트: {API_HOST}")
     print(f"  ├─ API 포트: {API_PORT}")
-    print(f"  └─ 수집 기간: {COLLECTION_DAYS}일")
+    print(f"  ├─ 수집 기간: {COLLECTION_DAYS}일")
+    print(f"  └─ 수집 시간: {COLLECTION_HOURS}시간")
 
 if __name__ == "__main__":
     validate_config()

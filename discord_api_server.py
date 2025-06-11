@@ -26,7 +26,7 @@ app = FastAPI(
 # 요청/응답 모델 정의
 class CollectRequest(BaseModel):
     channel_id: str
-    days: int = 1
+    hours: int = 1
     server_id: Optional[str] = None
 
 class CollectResponse(BaseModel):
@@ -102,7 +102,7 @@ async def collect_messages(request: CollectRequest, background_tasks: Background
     tasks_status[task_id] = {
         "status": "started",
         "channel_id": request.channel_id,
-        "days": request.days,
+        "hours": request.hours,
         "start_time": datetime.now(),
         "messages_count": 0
     }
@@ -112,7 +112,7 @@ async def collect_messages(request: CollectRequest, background_tasks: Background
         run_collection_task, 
         task_id, 
         request.channel_id, 
-        request.days
+        request.hours
     )
     
     return CollectResponse(
@@ -137,7 +137,7 @@ async def collect_messages_sync(request: CollectRequest):
         # 메시지 수집
         result = collector.collect_and_save(
             channel_id=request.channel_id, 
-            days=request.days
+            hours=request.hours
         )
         
         end_time = datetime.now()
@@ -147,7 +147,7 @@ async def collect_messages_sync(request: CollectRequest):
         global last_collection_info
         last_collection_info = {
             "channel_id": request.channel_id,
-            "days": request.days,
+            "hours": request.hours,
             "timestamp": start_time.isoformat(),
             "execution_time": execution_time,
             "status": "completed"
@@ -167,13 +167,13 @@ async def collect_messages_sync(request: CollectRequest):
         )
 
 @app.get("/collect/momentum", response_model=CollectResponse)
-async def collect_momentum_messages(days: int = 1):
+async def collect_momentum_messages(hours: int = 1):
     """Momentum Messengers 서버 메시지 수집 (고정 설정)"""
     CHANNEL_ID = DEFAULT_CHANNEL_ID  # main-stock-chat
     
     request = CollectRequest(
         channel_id=CHANNEL_ID,
-        days=days
+        hours=hours
     )
     
     return await collect_messages_sync(request)
@@ -191,7 +191,7 @@ async def list_tasks():
     """모든 작업 목록"""
     return {"tasks": tasks_status}
 
-async def run_collection_task(task_id: str, channel_id: str, days: int):
+async def run_collection_task(task_id: str, channel_id: str, hours: int):
     """백그라운드 수집 작업"""
     try:
         tasks_status[task_id]["status"] = "running"
@@ -204,7 +204,7 @@ async def run_collection_task(task_id: str, channel_id: str, days: int):
         )
         
         # 메시지 수집
-        result = collector.collect_and_save(channel_id=channel_id, days=days)
+        result = collector.collect_and_save(channel_id=channel_id, hours=hours)
         
         # 작업 완료
         end_time = datetime.now()
@@ -219,7 +219,7 @@ async def run_collection_task(task_id: str, channel_id: str, days: int):
         global last_collection_info
         last_collection_info = {
             "channel_id": channel_id,
-            "days": days,
+            "hours": hours,
             "timestamp": tasks_status[task_id]["start_time"].isoformat(),
             "execution_time": tasks_status[task_id]["execution_time"],
             "status": "completed"

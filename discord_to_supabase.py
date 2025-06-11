@@ -36,22 +36,22 @@ class DiscordToSupabaseCollector:
         self.discord_token = discord_token
         self.discord_exporter_path = "./bin/DiscordChatExporter.Cli"
         
-    def export_messages(self, channel_id: str, days: int = 5) -> str:
+    def export_messages(self, channel_id: str, hours: int = 1) -> str:
         """
         Export messages from Discord channel using DiscordChatExporter
         
         Args:
             channel_id: Discord channel ID
-            days: Number of days to go back
+            hours: Number of hours to go back
             
         Returns:
             Path to the exported JSON file
         """
         start_time = time.time()
-        logger.info(f"⏰ [STEP 1] Discord 메시지 내보내기 시작: {channel_id} (최근 {days}일)")
+        logger.info(f"⏰ [STEP 1] Discord 메시지 내보내기 시작: {channel_id} (최근 {hours}시간)")
         
-        # 날짜 계산 (5일 전)
-        after_date = (datetime.now() - timedelta(days=days)).strftime('%Y-%m-%d')
+        # 날짜 계산 (시간 단위로 변경)
+        after_date = (datetime.now() - timedelta(hours=hours)).isoformat()
         
         # 임시 출력 파일
         output_file = f"messages_{channel_id}_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
@@ -180,20 +180,20 @@ class DiscordToSupabaseCollector:
             logger.error(f"❌ [STEP 3] Supabase 저장 실패 (소요시간: {elapsed_time:.2f}초): {e}")
             raise
     
-    def collect_and_save(self, channel_id: str, days: int = 5) -> None:
+    def collect_and_save(self, channel_id: str, hours: int = 1) -> None:
         """
         Complete workflow: export, parse, and save messages
         
         Args:
             channel_id: Discord channel ID
-            days: Number of days to go back
+            hours: Number of hours to go back
         """
         total_start_time = time.time()
-        logger.info(f"🚀 전체 작업 시작: 채널 {channel_id} (최근 {days}일)")
+        logger.info(f"🚀 전체 작업 시작: 채널 {channel_id} (최근 {hours}시간)")
         
         try:
             # 1. Discord에서 메시지 내보내기
-            json_file = self.export_messages(channel_id, days)
+            json_file = self.export_messages(channel_id, hours)
             
             # 2. JSON 파일 파싱
             messages = self.parse_discord_json(json_file)
@@ -201,14 +201,10 @@ class DiscordToSupabaseCollector:
             # 3. Supabase에 저장
             self.save_to_supabase(messages)
             
-            # 4. 임시 파일 정리
+            # 4. 임시 파일 정리 
             cleanup_start_time = time.time()
             logger.info(f"⏰ [STEP 4] 임시 파일 정리 시작")
-            if os.path.exists(json_file):
-                os.remove(json_file)
-                cleanup_end_time = time.time()
-                cleanup_elapsed = cleanup_end_time - cleanup_start_time
-                logger.info(f"✅ [STEP 4] 임시 파일 삭제: {json_file} (소요시간: {cleanup_elapsed:.2f}초)")
+            logger.info(f"✅ [STEP 4] 임시 파일 보존: {json_file}")
             
             total_end_time = time.time()
             total_elapsed = total_end_time - total_start_time
@@ -234,7 +230,7 @@ def main():
     """
     
     # 환경변수에서 설정 로드
-    from config import SUPABASE_URL, SUPABASE_KEY, DISCORD_TOKEN, DEFAULT_CHANNEL_ID, COLLECTION_DAYS, validate_config
+    from config import SUPABASE_URL, SUPABASE_KEY, DISCORD_TOKEN, DEFAULT_CHANNEL_ID, COLLECTION_DAYS, COLLECTION_HOURS, validate_config
     
     # 설정 검증
     try:
@@ -253,7 +249,7 @@ def main():
     )
     
     # 메시지 수집 및 저장 (환경변수에서 설정된 기간)
-    collector.collect_and_save(channel_id=CHANNEL_ID, days=COLLECTION_DAYS)
+    collector.collect_and_save(channel_id=CHANNEL_ID, hours=COLLECTION_HOURS)
 
 
 if __name__ == "__main__":
