@@ -1,0 +1,13 @@
+{
+  "functions": {
+    "api/*.py": {
+      "runtime": "python3.9"
+    }
+  },
+  "env": {
+    "DISCORD_TOKEN": "@discord_token",
+    "SUPABASE_URL": "@supabase_url", 
+    "SUPABASE_KEY": "@supabase_key",
+    "DEFAULT_CHANNEL_ID": "@default_channel_id"
+  }
+} 

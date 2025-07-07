@@ -1,0 +1,61 @@
+# Git
+.git
+.gitignore
+
+# Build artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local development
+node_modules/
+.env
+.env.local
+config.env
+
+# Documentation and samples (for smaller build)
+docs/
+sample_data/
+legacy/
+
+# Docker
+.dockerignore
+docker-compose.yml
+
+# Deployment configs for other platforms
+vercel.json
+
+# Logs
+*.log 
