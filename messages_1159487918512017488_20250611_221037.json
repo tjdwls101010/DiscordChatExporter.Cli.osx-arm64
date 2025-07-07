@@ -1,0 +1,2087 @@
+{
+  "guild": {
+    "id": "1159481575235403857",
+    "name": "Momentum Messengers",
+    "iconUrl": "https://cdn.discordapp.com/icons/1159481575235403857/c1ce63bb1e675e3ac5c6db8001f6465d.png?size=512"
+  },
+  "channel": {
+    "id": "1159487918512017488",
+    "type": "GuildTextChat",
+    "categoryId": "1159481575235403858",
+    "category": "main",
+    "name": "\uD83D\uDCACmain-stock-chat",
+    "topic": "실시간 시장 및 주식 논평, 거래, 관찰"
+  },
+  "dateRange": {
+    "after": "2025-06-11T16:10:37.95+09:00",
+    "before": null
+  },
+  "exportedAt": "2025-06-11T22:10:41.586768+09:00",
+  "messages": [
+    {
+      "id": "1382260272105787392",
+      "type": "Default",
+      "timestamp": "2025-06-11T16:28:50.024+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "이번에 스마트폰 안드로이드 업데이트 좋네요\n측면 버튼으로 Gemini 바로 호출해서 음성 지시 가능하고 AI기능 강화",
+      "author": {
+        "id": "262207764229652480",
+        "name": "inod1",
+        "discriminator": "0000",
+        "nickname": "슈트",
+        "color": "#E91E63",
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1159526956828737617",
+            "name": "Admin",
+            "color": "#E91E63",
+            "position": 5
+          },
+          {
+            "id": "1159573012375412800",
+            "name": "Server Booster",
+            "color": "#F47FFF",
+            "position": 4
+          }
+        ],
+        "avatarUrl": "https://cdn.discordapp.com/guilds/1159481575235403857/users/262207764229652480/avatars/a3b1264a93164ca098c338b0adb340f9.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1382260298123051069",
+      "type": "Default",
+      "timestamp": "2025-06-11T16:28:56.227+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "GOOGL 점점 호감... :pepe_pray:",
+      "author": {
+        "id": "262207764229652480",
+        "name": "inod1",
+        "discriminator": "0000",
+        "nickname": "슈트",
+        "color": "#E91E63",
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1159526956828737617",
+            "name": "Admin",
+            "color": "#E91E63",
+            "position": 5
+          },
+          {
+            "id": "1159573012375412800",
+            "name": "Server Booster",
+            "color": "#F47FFF",
+            "position": 4
+          }
+        ],
+        "avatarUrl": "https://cdn.discordapp.com/guilds/1159481575235403857/users/262207764229652480/avatars/a3b1264a93164ca098c338b0adb340f9.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": [
+        {
+          "id": "1278704916520632362",
+          "name": "pepe_pray",
+          "code": "pepe_pray",
+          "isAnimated": false,
+          "imageUrl": "https://cdn.discordapp.com/emojis/1278704916520632362.png"
+        }
+      ]
+    },
+    {
+      "id": "1382261871402291300",
+      "type": "Reply",
+      "timestamp": "2025-06-11T16:35:11.326+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "아 사무실에서 한 번 눌러봤다가 밝은 남자 목소리 나와서 깜짝 놀랐네요 ㅋㅋㅋㅋ",
+      "author": {
+        "id": "719571841630339092",
+        "name": "xylosti",
+        "discriminator": "0000",
+        "nickname": "xyloz",
+        "color": "#E91E63",
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1159526956828737617",
+            "name": "Admin",
+            "color": "#E91E63",
+            "position": 5
+          }
+        ],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/719571841630339092/57366738a6e8363070a3d6d1012b3a5c.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "1279130320754708550",
+            "name": "PepePopcorn",
+            "code": "PepePopcorn",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/1279130320754708550.png"
+          },
+          "count": 4,
+          "users": [
+            {
+              "id": "262207764229652480",
+              "name": "inod1",
+              "discriminator": "0000",
+              "nickname": "슈트",
+              "color": "#E91E63",
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/guilds/1159481575235403857/users/262207764229652480/avatars/a3b1264a93164ca098c338b0adb340f9.png?size=512"
+            },
+            {
+              "id": "1061257667928145927",
+              "name": "banzi_seo",
+              "discriminator": "0000",
+              "nickname": "Banzi",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/1061257667928145927/5f7e3998746de44d66ad600fac62223b.png?size=512"
+            },
+            {
+              "id": "1164833024970592277",
+              "name": "thelogicaltrader_06755",
+              "discriminator": "0000",
+              "nickname": "Thelogicaltrader",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/1164833024970592277/e36f841e35ebc958a94e442e3252c062.png?size=512"
+            },
+            {
+              "id": "1198745015762026576",
+              "name": "yinanida",
+              "discriminator": "0000",
+              "nickname": "보리스",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/1198745015762026576/6577fc929ef07028395c4525c3c2e381.png?size=512"
+            }
+          ]
+        }
+      ],
+      "mentions": [
+        {
+          "id": "262207764229652480",
+          "name": "inod1",
+          "discriminator": "0000",
+          "nickname": "슈트",
+          "color": "#E91E63",
+          "isBot": false,
+          "roles": [
+            {
+              "id": "1159526956828737617",
+              "name": "Admin",
+              "color": "#E91E63",
+              "position": 5
+            },
+            {
+              "id": "1159573012375412800",
+              "name": "Server Booster",
+              "color": "#F47FFF",
+              "position": 4
+            }
+          ],
+          "avatarUrl": "https://cdn.discordapp.com/guilds/1159481575235403857/users/262207764229652480/avatars/a3b1264a93164ca098c338b0adb340f9.png?size=512"
+        }
+      ],
+      "reference": {
+        "messageId": "1382260272105787392",
+        "channelId": "1159487918512017488",
+        "guildId": "1159481575235403857"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1382262108367880284",
+      "type": "Default",
+      "timestamp": "2025-06-11T16:36:07.823+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "빅스비, 시리는 이제 망했나요?",
+      "author": {
+        "id": "262207764229652480",
+        "name": "inod1",
+        "discriminator": "0000",
+        "nickname": "슈트",
+        "color": "#E91E63",
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1159526956828737617",
+            "name": "Admin",
+            "color": "#E91E63",
+            "position": 5
+          },
+          {
+            "id": "1159573012375412800",
+            "name": "Server Booster",
+            "color": "#F47FFF",
+            "position": 4
+          }
+        ],
+        "avatarUrl": "https://cdn.discordapp.com/guilds/1159481575235403857/users/262207764229652480/avatars/a3b1264a93164ca098c338b0adb340f9.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1382262267315224647",
+      "type": "Default",
+      "timestamp": "2025-06-11T16:36:45.719+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "빅스비는 정말 알람 맞출 때 말고 안쓰는 것 같습니다 ㅋㅋ",
+      "author": {
+        "id": "719571841630339092",
+        "name": "xylosti",
+        "discriminator": "0000",
+        "nickname": "xyloz",
+        "color": "#E91E63",
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1159526956828737617",
+            "name": "Admin",
+            "color": "#E91E63",
+            "position": 5
+          }
+        ],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/719571841630339092/57366738a6e8363070a3d6d1012b3a5c.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1382262502653558805",
+      "type": "Default",
+      "timestamp": "2025-06-11T16:37:41.828+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "운전 중에 빅스비로 전화 연결합니다 ㅋㅋ",
+      "author": {
+        "id": "1325772896722747454",
+        "name": "cwy0904",
+        "discriminator": "0000",
+        "nickname": "cwy",
+        "color": "#1ABC9C",
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1159736994352599110",
+            "name": "member",
+            "color": "#1ABC9C",
+            "position": 3
+          }
+        ],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/1325772896722747454/8569adcbd36c70a7578c017bf5604ea5.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1382263519046668339",
+      "type": "Default",
+      "timestamp": "2025-06-11T16:41:44.155+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "...님들",
+      "author": {
+        "id": "262207764229652480",
+        "name": "inod1",
+        "discriminator": "0000",
+        "nickname": "슈트",
+        "color": "#E91E63",
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1159526956828737617",
+            "name": "Admin",
+            "color": "#E91E63",
+            "position": 5
+          },
+          {
+            "id": "1159573012375412800",
+            "name": "Server Booster",
+            "color": "#F47FFF",
+            "position": 4
+          }
+        ],
+        "avatarUrl": "https://cdn.discordapp.com/guilds/1159481575235403857/users/262207764229652480/avatars/a3b1264a93164ca098c338b0adb340f9.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1382263557672013894",
+      "type": "Default",
+      "timestamp": "2025-06-11T16:41:53.364+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "제미니 불러서 시키니까 알람, 전화 다 되고",
+      "author": {
+        "id": "262207764229652480",
+        "name": "inod1",
+        "discriminator": "0000",
+        "nickname": "슈트",
+        "color": "#E91E63",
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1159526956828737617",
+            "name": "Admin",
+            "color": "#E91E63",
+            "position": 5
+          },
+          {
+            "id": "1159573012375412800",
+            "name": "Server Booster",
+            "color": "#F47FFF",
+            "position": 4
+          }
+        ],
+        "avatarUrl": "https://cdn.discordapp.com/guilds/1159481575235403857/users/262207764229652480/avatars/a3b1264a93164ca098c338b0adb340f9.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1382263586231156786",
+      "type": "Default",
+      "timestamp": "2025-06-11T16:42:00.173+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "빅스비보다 더 잘 알아듣는데요 :Hmmm:",
+      "author": {
+        "id": "262207764229652480",
+        "name": "inod1",
+        "discriminator": "0000",
+        "nickname": "슈트",
+        "color": "#E91E63",
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1159526956828737617",
+            "name": "Admin",
+            "color": "#E91E63",
+            "position": 5
+          },
+          {
+            "id": "1159573012375412800",
+            "name": "Server Booster",
+            "color": "#F47FFF",
+            "position": 4
+          }
+        ],
+        "avatarUrl": "https://cdn.discordapp.com/guilds/1159481575235403857/users/262207764229652480/avatars/a3b1264a93164ca098c338b0adb340f9.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83D\uDE2E",
+            "code": "open_mouth",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f62e.svg"
+          },
+          "count": 5,
+          "users": [
+            {
+              "id": "719571841630339092",
+              "name": "xylosti",
+              "discriminator": "0000",
+              "nickname": "xyloz",
+              "color": "#E91E63",
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/719571841630339092/57366738a6e8363070a3d6d1012b3a5c.png?size=512"
+            },
+            {
+              "id": "1159796518325342228",
+              "name": "iamjeremykim",
+              "discriminator": "0000",
+              "nickname": "JeremyKim",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/1159796518325342228/00bca7c515404919973d96a9d99de178.png?size=512"
+            },
+            {
+              "id": "1164832871287099443",
+              "name": "gosng88",
+              "discriminator": "0000",
+              "nickname": "초록파도",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/1164832871287099443/03e668ad490a5cc3fe30a36e7a858a5c.png?size=512"
+            },
+            {
+              "id": "1164833024970592277",
+              "name": "thelogicaltrader_06755",
+              "discriminator": "0000",
+              "nickname": "Thelogicaltrader",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/1164833024970592277/e36f841e35ebc958a94e442e3252c062.png?size=512"
+            },
+            {
+              "id": "1198745015762026576",
+              "name": "yinanida",
+              "discriminator": "0000",
+              "nickname": "보리스",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/1198745015762026576/6577fc929ef07028395c4525c3c2e381.png?size=512"
+            }
+          ]
+        }
+      ],
+      "mentions": [],
+      "inlineEmojis": [
+        {
+          "id": "1159599026610651166",
+          "name": "Hmmm",
+          "code": "Hmmm",
+          "isAnimated": true,
+          "imageUrl": "https://cdn.discordapp.com/emojis/1159599026610651166.gif"
+        }
+      ]
+    },
+    {
+      "id": "1382263667789140149",
+      "type": "Default",
+      "timestamp": "2025-06-11T16:42:19.618+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "빅스비 손절하시죠 ㅋㅋ",
+      "author": {
+        "id": "262207764229652480",
+        "name": "inod1",
+        "discriminator": "0000",
+        "nickname": "슈트",
+        "color": "#E91E63",
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1159526956828737617",
+            "name": "Admin",
+            "color": "#E91E63",
+            "position": 5
+          },
+          {
+            "id": "1159573012375412800",
+            "name": "Server Booster",
+            "color": "#F47FFF",
+            "position": 4
+          }
+        ],
+        "avatarUrl": "https://cdn.discordapp.com/guilds/1159481575235403857/users/262207764229652480/avatars/a3b1264a93164ca098c338b0adb340f9.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1382263772768505867",
+      "type": "Default",
+      "timestamp": "2025-06-11T16:42:44.647+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "아 제미니로도 되는군요! ㅎ",
+      "author": {
+        "id": "1325772896722747454",
+        "name": "cwy0904",
+        "discriminator": "0000",
+        "nickname": "cwy",
+        "color": "#1ABC9C",
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1159736994352599110",
+            "name": "member",
+            "color": "#1ABC9C",
+            "position": 3
+          }
+        ],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/1325772896722747454/8569adcbd36c70a7578c017bf5604ea5.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1382264118693597285",
+      "type": "Default",
+      "timestamp": "2025-06-11T16:44:07.122+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "약간 옆으로 새는 것 같긴 하지만 \n제미나이인가요 제미니인가요",
+      "author": {
+        "id": "719571841630339092",
+        "name": "xylosti",
+        "discriminator": "0000",
+        "nickname": "xyloz",
+        "color": "#E91E63",
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1159526956828737617",
+            "name": "Admin",
+            "color": "#E91E63",
+            "position": 5
+          }
+        ],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/719571841630339092/57366738a6e8363070a3d6d1012b3a5c.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1382264277737406505",
+      "type": "Default",
+      "timestamp": "2025-06-11T16:44:45.041+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "'제미나이'로 알고 있는데 저도 늘 헷갈립니다",
+      "author": {
+        "id": "1325772896722747454",
+        "name": "cwy0904",
+        "discriminator": "0000",
+        "nickname": "cwy",
+        "color": "#1ABC9C",
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1159736994352599110",
+            "name": "member",
+            "color": "#1ABC9C",
+            "position": 3
+          }
+        ],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/1325772896722747454/8569adcbd36c70a7578c017bf5604ea5.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1382264813240979488",
+      "type": "Default",
+      "timestamp": "2025-06-11T16:46:52.715+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "공식 발음은 제미나이일 거예요",
+      "author": {
+        "id": "262207764229652480",
+        "name": "inod1",
+        "discriminator": "0000",
+        "nickname": "슈트",
+        "color": "#E91E63",
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1159526956828737617",
+            "name": "Admin",
+            "color": "#E91E63",
+            "position": 5
+          },
+          {
+            "id": "1159573012375412800",
+            "name": "Server Booster",
+            "color": "#F47FFF",
+            "position": 4
+          }
+        ],
+        "avatarUrl": "https://cdn.discordapp.com/guilds/1159481575235403857/users/262207764229652480/avatars/a3b1264a93164ca098c338b0adb340f9.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "1159591859883081790",
+            "name": "ThankYou",
+            "code": "ThankYou",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/1159591859883081790.png"
+          },
+          "count": 3,
+          "users": [
+            {
+              "id": "719571841630339092",
+              "name": "xylosti",
+              "discriminator": "0000",
+              "nickname": "xyloz",
+              "color": "#E91E63",
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/719571841630339092/57366738a6e8363070a3d6d1012b3a5c.png?size=512"
+            },
+            {
+              "id": "814493858209071135",
+              "name": "jwacci_",
+              "discriminator": "0000",
+              "nickname": "대박날관상",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/814493858209071135/cac281fab632f1cc9449532089b9e52b.png?size=512"
+            },
+            {
+              "id": "1198745015762026576",
+              "name": "yinanida",
+              "discriminator": "0000",
+              "nickname": "보리스",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/1198745015762026576/6577fc929ef07028395c4525c3c2e381.png?size=512"
+            }
+          ]
+        }
+      ],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1382267980280369215",
+      "type": "Default",
+      "timestamp": "2025-06-11T16:59:27.796+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Gemini한테 물어보니깐 제미나이 라고 하네요 ㅎ\n1.쌍둥이'gemini'의 의미가 있다 \n쌍둥이처럼 여러 버전이 있고 필요에 따라 확장하고 적용될 수 있는 유연성이 있다. \n\n2. '아폴로 계획'의 발판이 되었던 NASA의  유인우주비행프로그램\n'project gemini'처럼 \nAI의 다음시대를 열 중요한 도약이 될 것 \n\n이라고 자화자찬하네요",
+      "author": {
+        "id": "1164833024970592277",
+        "name": "thelogicaltrader_06755",
+        "discriminator": "0000",
+        "nickname": "Thelogicaltrader",
+        "color": "#F47FFF",
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1159573012375412800",
+            "name": "Server Booster",
+            "color": "#F47FFF",
+            "position": 4
+          },
+          {
+            "id": "1159736994352599110",
+            "name": "member",
+            "color": "#1ABC9C",
+            "position": 3
+          }
+        ],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/1164833024970592277/e36f841e35ebc958a94e442e3252c062.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83D\uDC4D",
+            "code": "thumbsup",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f44d.svg"
+          },
+          "count": 4,
+          "users": [
+            {
+              "id": "334332754001133569",
+              "name": "helloworldan",
+              "discriminator": "0000",
+              "nickname": "helloworldan",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/334332754001133569/068cf3ecf4ebad15350b22742e0ddacb.png?size=512"
+            },
+            {
+              "id": "719571841630339092",
+              "name": "xylosti",
+              "discriminator": "0000",
+              "nickname": "xyloz",
+              "color": "#E91E63",
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/719571841630339092/57366738a6e8363070a3d6d1012b3a5c.png?size=512"
+            },
+            {
+              "id": "1159484226408808601",
+              "name": "noelpapa.",
+              "discriminator": "0000",
+              "nickname": "노엘파파",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/1159484226408808601/21bda501a958287cc98256a959353a9a.png?size=512"
+            },
+            {
+              "id": "1198745015762026576",
+              "name": "yinanida",
+              "discriminator": "0000",
+              "nickname": "보리스",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/1198745015762026576/6577fc929ef07028395c4525c3c2e381.png?size=512"
+            }
+          ]
+        }
+      ],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1382268114137382922",
+      "type": "Reply",
+      "timestamp": "2025-06-11T16:59:59.71+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "ㅋㅋㅋㅋㅋㅋ건방지네요",
+      "author": {
+        "id": "719571841630339092",
+        "name": "xylosti",
+        "discriminator": "0000",
+        "nickname": "xyloz",
+        "color": "#E91E63",
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1159526956828737617",
+            "name": "Admin",
+            "color": "#E91E63",
+            "position": 5
+          }
+        ],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/719571841630339092/57366738a6e8363070a3d6d1012b3a5c.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83D\uDE02",
+            "code": "joy",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f602.svg"
+          },
+          "count": 4,
+          "users": [
+            {
+              "id": "334332754001133569",
+              "name": "helloworldan",
+              "discriminator": "0000",
+              "nickname": "helloworldan",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/334332754001133569/068cf3ecf4ebad15350b22742e0ddacb.png?size=512"
+            },
+            {
+              "id": "1159484226408808601",
+              "name": "noelpapa.",
+              "discriminator": "0000",
+              "nickname": "노엘파파",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/1159484226408808601/21bda501a958287cc98256a959353a9a.png?size=512"
+            },
+            {
+              "id": "1164833024970592277",
+              "name": "thelogicaltrader_06755",
+              "discriminator": "0000",
+              "nickname": "Thelogicaltrader",
+              "color": "#F47FFF",
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/1164833024970592277/e36f841e35ebc958a94e442e3252c062.png?size=512"
+            },
+            {
+              "id": "1198745015762026576",
+              "name": "yinanida",
+              "discriminator": "0000",
+              "nickname": "보리스",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/1198745015762026576/6577fc929ef07028395c4525c3c2e381.png?size=512"
+            }
+          ]
+        }
+      ],
+      "mentions": [
+        {
+          "id": "1164833024970592277",
+          "name": "thelogicaltrader_06755",
+          "discriminator": "0000",
+          "nickname": "Thelogicaltrader",
+          "color": "#F47FFF",
+          "isBot": false,
+          "roles": [
+            {
+              "id": "1159573012375412800",
+              "name": "Server Booster",
+              "color": "#F47FFF",
+              "position": 4
+            },
+            {
+              "id": "1159736994352599110",
+              "name": "member",
+              "color": "#1ABC9C",
+              "position": 3
+            }
+          ],
+          "avatarUrl": "https://cdn.discordapp.com/avatars/1164833024970592277/e36f841e35ebc958a94e442e3252c062.png?size=512"
+        }
+      ],
+      "reference": {
+        "messageId": "1382267980280369215",
+        "channelId": "1159487918512017488",
+        "guildId": "1159481575235403857"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1382271954660098140",
+      "type": "Default",
+      "timestamp": "2025-06-11T17:15:15.362+09:00",
+      "timestampEdited": "2025-06-11T17:15:21.841+09:00",
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "잼민이 애칭입니다",
+      "author": {
+        "id": "309978545843732480",
+        "name": "jidon333",
+        "discriminator": "0000",
+        "nickname": "갓블레스아메리카",
+        "color": "#F47FFF",
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1159573012375412800",
+            "name": "Server Booster",
+            "color": "#F47FFF",
+            "position": 4
+          },
+          {
+            "id": "1159736994352599110",
+            "name": "member",
+            "color": "#1ABC9C",
+            "position": 3
+          }
+        ],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/309978545843732480/44b1fdd7c94a321ba51f5e312aeaafa5.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1382272040005931099",
+      "type": "Default",
+      "timestamp": "2025-06-11T17:15:35.71+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "잼민이라고 하니 피시방만 가면 들리는 소란스러운 친구들이 생각나네요",
+      "author": {
+        "id": "719571841630339092",
+        "name": "xylosti",
+        "discriminator": "0000",
+        "nickname": "xyloz",
+        "color": "#E91E63",
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1159526956828737617",
+            "name": "Admin",
+            "color": "#E91E63",
+            "position": 5
+          }
+        ],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/719571841630339092/57366738a6e8363070a3d6d1012b3a5c.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83D\uDE06",
+            "code": "laughing",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f606.svg"
+          },
+          "count": 4,
+          "users": [
+            {
+              "id": "309978545843732480",
+              "name": "jidon333",
+              "discriminator": "0000",
+              "nickname": "갓블레스아메리카",
+              "color": "#F47FFF",
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/309978545843732480/44b1fdd7c94a321ba51f5e312aeaafa5.png?size=512"
+            },
+            {
+              "id": "1159484226408808601",
+              "name": "noelpapa.",
+              "discriminator": "0000",
+              "nickname": "노엘파파",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/1159484226408808601/21bda501a958287cc98256a959353a9a.png?size=512"
+            },
+            {
+              "id": "1164833024970592277",
+              "name": "thelogicaltrader_06755",
+              "discriminator": "0000",
+              "nickname": "Thelogicaltrader",
+              "color": "#F47FFF",
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/1164833024970592277/e36f841e35ebc958a94e442e3252c062.png?size=512"
+            },
+            {
+              "id": "1198745015762026576",
+              "name": "yinanida",
+              "discriminator": "0000",
+              "nickname": "보리스",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/1198745015762026576/6577fc929ef07028395c4525c3c2e381.png?size=512"
+            }
+          ]
+        }
+      ],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1382272440364826696",
+      "type": "Default",
+      "timestamp": "2025-06-11T17:17:11.163+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "309978545843732480",
+        "name": "jidon333",
+        "discriminator": "0000",
+        "nickname": "갓블레스아메리카",
+        "color": "#F47FFF",
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1159573012375412800",
+            "name": "Server Booster",
+            "color": "#F47FFF",
+            "position": 4
+          },
+          {
+            "id": "1159736994352599110",
+            "name": "member",
+            "color": "#1ABC9C",
+            "position": 3
+          }
+        ],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/309978545843732480/44b1fdd7c94a321ba51f5e312aeaafa5.png?size=512"
+      },
+      "attachments": [
+        {
+          "id": "1382272440406642728",
+          "url": "https://cdn.discordapp.com/attachments/1159487918512017488/1382272440406642728/IMG_0372.jpg?ex=684a8d07&is=68493b87&hm=c187b88a5f2cdb159d8067fa07bce910a7e75f1f3aaabaec7f7e00f4ce800a9f&",
+          "fileName": "IMG_0372.jpg",
+          "fileSizeBytes": 146824
+        }
+      ],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "1202586170085871616",
+            "name": "trumpthumbsup",
+            "code": "trumpthumbsup",
+            "isAnimated": true,
+            "imageUrl": "https://cdn.discordapp.com/emojis/1202586170085871616.gif"
+          },
+          "count": 7,
+          "users": [
+            {
+              "id": "309978545843732480",
+              "name": "jidon333",
+              "discriminator": "0000",
+              "nickname": "갓블레스아메리카",
+              "color": "#F47FFF",
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/309978545843732480/44b1fdd7c94a321ba51f5e312aeaafa5.png?size=512"
+            },
+            {
+              "id": "334332754001133569",
+              "name": "helloworldan",
+              "discriminator": "0000",
+              "nickname": "helloworldan",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/334332754001133569/068cf3ecf4ebad15350b22742e0ddacb.png?size=512"
+            },
+            {
+              "id": "1061257667928145927",
+              "name": "banzi_seo",
+              "discriminator": "0000",
+              "nickname": "Banzi",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/1061257667928145927/5f7e3998746de44d66ad600fac62223b.png?size=512"
+            },
+            {
+              "id": "1159484226408808601",
+              "name": "noelpapa.",
+              "discriminator": "0000",
+              "nickname": "노엘파파",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/1159484226408808601/21bda501a958287cc98256a959353a9a.png?size=512"
+            },
+            {
+              "id": "1164832871287099443",
+              "name": "gosng88",
+              "discriminator": "0000",
+              "nickname": "초록파도",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/1164832871287099443/03e668ad490a5cc3fe30a36e7a858a5c.png?size=512"
+            },
+            {
+              "id": "1164833024970592277",
+              "name": "thelogicaltrader_06755",
+              "discriminator": "0000",
+              "nickname": "Thelogicaltrader",
+              "color": "#F47FFF",
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/1164833024970592277/e36f841e35ebc958a94e442e3252c062.png?size=512"
+            },
+            {
+              "id": "1198745015762026576",
+              "name": "yinanida",
+              "discriminator": "0000",
+              "nickname": "보리스",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/1198745015762026576/6577fc929ef07028395c4525c3c2e381.png?size=512"
+            }
+          ]
+        },
+        {
+          "emoji": {
+            "id": "1173663817285247176",
+            "name": "elon",
+            "code": "elon",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/1173663817285247176.png"
+          },
+          "count": 6,
+          "users": [
+            {
+              "id": "262207764229652480",
+              "name": "inod1",
+              "discriminator": "0000",
+              "nickname": "슈트",
+              "color": "#E91E63",
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/guilds/1159481575235403857/users/262207764229652480/avatars/a3b1264a93164ca098c338b0adb340f9.png?size=512"
+            },
+            {
+              "id": "309978545843732480",
+              "name": "jidon333",
+              "discriminator": "0000",
+              "nickname": "갓블레스아메리카",
+              "color": "#F47FFF",
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/309978545843732480/44b1fdd7c94a321ba51f5e312aeaafa5.png?size=512"
+            },
+            {
+              "id": "710056857724649543",
+              "name": "senior_staff",
+              "discriminator": "0000",
+              "nickname": "Senior Staff",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/710056857724649543/ea2a041edb107924ed7efd351b39f3ff.png?size=512"
+            },
+            {
+              "id": "1065347235598061658",
+              "name": "voldemot.",
+              "discriminator": "0000",
+              "nickname": "VoldemoT",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/1065347235598061658/64167a218734280634ee0a3e0ffebf82.png?size=512"
+            },
+            {
+              "id": "1159484226408808601",
+              "name": "noelpapa.",
+              "discriminator": "0000",
+              "nickname": "노엘파파",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/1159484226408808601/21bda501a958287cc98256a959353a9a.png?size=512"
+            },
+            {
+              "id": "1184043890093867042",
+              "name": "loisir_",
+              "discriminator": "0000",
+              "nickname": "Loisir",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/1184043890093867042/0321b0ff4522d689b6271c850b00d149.png?size=512"
+            }
+          ]
+        },
+        {
+          "emoji": {
+            "id": "",
+            "name": "⁉️",
+            "code": "interrobang",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/2049.svg"
+          },
+          "count": 3,
+          "users": [
+            {
+              "id": "719571841630339092",
+              "name": "xylosti",
+              "discriminator": "0000",
+              "nickname": "xyloz",
+              "color": "#E91E63",
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/719571841630339092/57366738a6e8363070a3d6d1012b3a5c.png?size=512"
+            },
+            {
+              "id": "1149997334294433827",
+              "name": "motivation_i",
+              "discriminator": "0000",
+              "nickname": "dongkeykong",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/1149997334294433827/228295b534805ace141ed037cdfcb66b.png?size=512"
+            },
+            {
+              "id": "1159484226408808601",
+              "name": "noelpapa.",
+              "discriminator": "0000",
+              "nickname": "노엘파파",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/1159484226408808601/21bda501a958287cc98256a959353a9a.png?size=512"
+            }
+          ]
+        }
+      ],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1382272560875700245",
+      "type": "Default",
+      "timestamp": "2025-06-11T17:17:39.895+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "TSLA 3bar reversal?",
+      "author": {
+        "id": "309978545843732480",
+        "name": "jidon333",
+        "discriminator": "0000",
+        "nickname": "갓블레스아메리카",
+        "color": "#F47FFF",
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1159573012375412800",
+            "name": "Server Booster",
+            "color": "#F47FFF",
+            "position": 4
+          },
+          {
+            "id": "1159736994352599110",
+            "name": "member",
+            "color": "#1ABC9C",
+            "position": 3
+          }
+        ],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/309978545843732480/44b1fdd7c94a321ba51f5e312aeaafa5.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1382272650935799868",
+      "type": "Default",
+      "timestamp": "2025-06-11T17:18:01.367+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "TSLA pre $335네요 ㅋㅋㅋㅋ",
+      "author": {
+        "id": "719571841630339092",
+        "name": "xylosti",
+        "discriminator": "0000",
+        "nickname": "xyloz",
+        "color": "#E91E63",
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1159526956828737617",
+            "name": "Admin",
+            "color": "#E91E63",
+            "position": 5
+          }
+        ],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/719571841630339092/57366738a6e8363070a3d6d1012b3a5c.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "1278704916520632362",
+            "name": "pepe_pray",
+            "code": "pepe_pray",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/1278704916520632362.png"
+          },
+          "count": 8,
+          "users": [
+            {
+              "id": "309978545843732480",
+              "name": "jidon333",
+              "discriminator": "0000",
+              "nickname": "갓블레스아메리카",
+              "color": "#F47FFF",
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/309978545843732480/44b1fdd7c94a321ba51f5e312aeaafa5.png?size=512"
+            },
+            {
+              "id": "334332754001133569",
+              "name": "helloworldan",
+              "discriminator": "0000",
+              "nickname": "helloworldan",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/334332754001133569/068cf3ecf4ebad15350b22742e0ddacb.png?size=512"
+            },
+            {
+              "id": "556038232819761152",
+              "name": "bonanza0323",
+              "discriminator": "0000",
+              "nickname": "루키",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/556038232819761152/e7da2bae1b4b4fefb2fbaccc45451504.png?size=512"
+            },
+            {
+              "id": "1061257667928145927",
+              "name": "banzi_seo",
+              "discriminator": "0000",
+              "nickname": "Banzi",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/1061257667928145927/5f7e3998746de44d66ad600fac62223b.png?size=512"
+            },
+            {
+              "id": "1159484226408808601",
+              "name": "noelpapa.",
+              "discriminator": "0000",
+              "nickname": "노엘파파",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/1159484226408808601/21bda501a958287cc98256a959353a9a.png?size=512"
+            },
+            {
+              "id": "1159548530130702396",
+              "name": "wizardkim_54969",
+              "discriminator": "0000",
+              "nickname": "Wizard Kim",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/1159548530130702396/c82b3fa769ed6e6ffdea579381ed5f5c.png?size=512"
+            },
+            {
+              "id": "1164832871287099443",
+              "name": "gosng88",
+              "discriminator": "0000",
+              "nickname": "초록파도",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/1164832871287099443/03e668ad490a5cc3fe30a36e7a858a5c.png?size=512"
+            },
+            {
+              "id": "1198745015762026576",
+              "name": "yinanida",
+              "discriminator": "0000",
+              "nickname": "보리스",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/1198745015762026576/6577fc929ef07028395c4525c3c2e381.png?size=512"
+            }
+          ]
+        }
+      ],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1382322829390778448",
+      "type": "Default",
+      "timestamp": "2025-06-11T20:37:24.843+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "트레이딩뷰 섬머세일하고있습니다",
+      "author": {
+        "id": "556038232819761152",
+        "name": "bonanza0323",
+        "discriminator": "0000",
+        "nickname": "루키",
+        "color": "#1ABC9C",
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1159736994352599110",
+            "name": "member",
+            "color": "#1ABC9C",
+            "position": 3
+          }
+        ],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/556038232819761152/e7da2bae1b4b4fefb2fbaccc45451504.png?size=512"
+      },
+      "attachments": [
+        {
+          "id": "1382322829176864888",
+          "url": "https://cdn.discordapp.com/attachments/1159487918512017488/1382322829176864888/0001.jpg?ex=684abbf4&is=68496a74&hm=504568c3762ce879f590018271ba4e5e03b6aea0465bb5b0aa0c40e09a6f229d&",
+          "fileName": "0001.jpg",
+          "fileSizeBytes": 474830
+        }
+      ],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "1159591859883081790",
+            "name": "ThankYou",
+            "code": "ThankYou",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/1159591859883081790.png"
+          },
+          "count": 9,
+          "users": [
+            {
+              "id": "441288734822891520",
+              "name": "aesten.",
+              "discriminator": "0000",
+              "nickname": "aesten",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/embed/avatars/0.png"
+            },
+            {
+              "id": "719571841630339092",
+              "name": "xylosti",
+              "discriminator": "0000",
+              "nickname": "xyloz",
+              "color": "#E91E63",
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/719571841630339092/57366738a6e8363070a3d6d1012b3a5c.png?size=512"
+            },
+            {
+              "id": "1061257667928145927",
+              "name": "banzi_seo",
+              "discriminator": "0000",
+              "nickname": "Banzi",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/1061257667928145927/5f7e3998746de44d66ad600fac62223b.png?size=512"
+            },
+            {
+              "id": "1159484226408808601",
+              "name": "noelpapa.",
+              "discriminator": "0000",
+              "nickname": "노엘파파",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/1159484226408808601/21bda501a958287cc98256a959353a9a.png?size=512"
+            },
+            {
+              "id": "1159796518325342228",
+              "name": "iamjeremykim",
+              "discriminator": "0000",
+              "nickname": "JeremyKim",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/1159796518325342228/00bca7c515404919973d96a9d99de178.png?size=512"
+            },
+            {
+              "id": "1164832871287099443",
+              "name": "gosng88",
+              "discriminator": "0000",
+              "nickname": "초록파도",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/1164832871287099443/03e668ad490a5cc3fe30a36e7a858a5c.png?size=512"
+            },
+            {
+              "id": "1164833024970592277",
+              "name": "thelogicaltrader_06755",
+              "discriminator": "0000",
+              "nickname": "Thelogicaltrader",
+              "color": "#F47FFF",
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/1164833024970592277/e36f841e35ebc958a94e442e3252c062.png?size=512"
+            },
+            {
+              "id": "1183450727813742722",
+              "name": "prince_9602",
+              "discriminator": "0000",
+              "nickname": "Prince",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/1183450727813742722/db76d4bbd3e7394011706d4822b46a79.png?size=512"
+            },
+            {
+              "id": "1198745015762026576",
+              "name": "yinanida",
+              "discriminator": "0000",
+              "nickname": "보리스",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/1198745015762026576/6577fc929ef07028395c4525c3c2e381.png?size=512"
+            }
+          ]
+        }
+      ],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1382337174048866385",
+      "type": "Default",
+      "timestamp": "2025-06-11T21:34:24.876+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "*US MAY CONSUMER PRICES RISE 0.1% M/M; EST. +0.2%\n*US MAY CONSUMER PRICES RISE 2.4% Y/Y; EST. +2.5%\n*US MAY CORE CPI RISES 0.1% M/M; EST. +0.3%\n*US MAY CORE CPI RISES 2.8% Y/Y; EST. +2.9%",
+      "author": {
+        "id": "262207764229652480",
+        "name": "inod1",
+        "discriminator": "0000",
+        "nickname": "슈트",
+        "color": "#E91E63",
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1159526956828737617",
+            "name": "Admin",
+            "color": "#E91E63",
+            "position": 5
+          },
+          {
+            "id": "1159573012375412800",
+            "name": "Server Booster",
+            "color": "#F47FFF",
+            "position": 4
+          }
+        ],
+        "avatarUrl": "https://cdn.discordapp.com/guilds/1159481575235403857/users/262207764229652480/avatars/a3b1264a93164ca098c338b0adb340f9.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "1159591859883081790",
+            "name": "ThankYou",
+            "code": "ThankYou",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/1159591859883081790.png"
+          },
+          "count": 11,
+          "users": [
+            {
+              "id": "334332754001133569",
+              "name": "helloworldan",
+              "discriminator": "0000",
+              "nickname": "helloworldan",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/334332754001133569/068cf3ecf4ebad15350b22742e0ddacb.png?size=512"
+            },
+            {
+              "id": "542998370952675328",
+              "name": "seungyong6080",
+              "discriminator": "0000",
+              "nickname": "HEISENBERG",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/embed/avatars/1.png"
+            },
+            {
+              "id": "556038232819761152",
+              "name": "bonanza0323",
+              "discriminator": "0000",
+              "nickname": "루키",
+              "color": "#1ABC9C",
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/556038232819761152/e7da2bae1b4b4fefb2fbaccc45451504.png?size=512"
+            },
+            {
+              "id": "710056857724649543",
+              "name": "senior_staff",
+              "discriminator": "0000",
+              "nickname": "Senior Staff",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/710056857724649543/ea2a041edb107924ed7efd351b39f3ff.png?size=512"
+            },
+            {
+              "id": "1065347235598061658",
+              "name": "voldemot.",
+              "discriminator": "0000",
+              "nickname": "VoldemoT",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/1065347235598061658/64167a218734280634ee0a3e0ffebf82.png?size=512"
+            },
+            {
+              "id": "1159484226408808601",
+              "name": "noelpapa.",
+              "discriminator": "0000",
+              "nickname": "노엘파파",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/1159484226408808601/21bda501a958287cc98256a959353a9a.png?size=512"
+            },
+            {
+              "id": "1159515475580047491",
+              "name": "bu_ri.",
+              "discriminator": "0000",
+              "nickname": "부리",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/1159515475580047491/420f294758c51dbd1b71bec5fc798167.png?size=512"
+            },
+            {
+              "id": "1159548530130702396",
+              "name": "wizardkim_54969",
+              "discriminator": "0000",
+              "nickname": "Wizard Kim",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/1159548530130702396/c82b3fa769ed6e6ffdea579381ed5f5c.png?size=512"
+            },
+            {
+              "id": "1164832871287099443",
+              "name": "gosng88",
+              "discriminator": "0000",
+              "nickname": "초록파도",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/1164832871287099443/03e668ad490a5cc3fe30a36e7a858a5c.png?size=512"
+            },
+            {
+              "id": "1184043890093867042",
+              "name": "loisir_",
+              "discriminator": "0000",
+              "nickname": "Loisir",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/1184043890093867042/0321b0ff4522d689b6271c850b00d149.png?size=512"
+            },
+            {
+              "id": "1198745015762026576",
+              "name": "yinanida",
+              "discriminator": "0000",
+              "nickname": "보리스",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/1198745015762026576/6577fc929ef07028395c4525c3c2e381.png?size=512"
+            }
+          ]
+        },
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83D\uDE4F",
+            "code": "pray",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f64f.svg"
+          },
+          "count": 4,
+          "users": [
+            {
+              "id": "710056857724649543",
+              "name": "senior_staff",
+              "discriminator": "0000",
+              "nickname": "Senior Staff",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/710056857724649543/ea2a041edb107924ed7efd351b39f3ff.png?size=512"
+            },
+            {
+              "id": "1159484226408808601",
+              "name": "noelpapa.",
+              "discriminator": "0000",
+              "nickname": "노엘파파",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/1159484226408808601/21bda501a958287cc98256a959353a9a.png?size=512"
+            },
+            {
+              "id": "1198745015762026576",
+              "name": "yinanida",
+              "discriminator": "0000",
+              "nickname": "보리스",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/1198745015762026576/6577fc929ef07028395c4525c3c2e381.png?size=512"
+            },
+            {
+              "id": "1325772896722747454",
+              "name": "cwy0904",
+              "discriminator": "0000",
+              "nickname": "cwy",
+              "color": "#1ABC9C",
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/1325772896722747454/8569adcbd36c70a7578c017bf5604ea5.png?size=512"
+            }
+          ]
+        },
+        {
+          "emoji": {
+            "id": "",
+            "name": "✅",
+            "code": "white_check_mark",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/2705.svg"
+          },
+          "count": 4,
+          "users": [
+            {
+              "id": "710056857724649543",
+              "name": "senior_staff",
+              "discriminator": "0000",
+              "nickname": "Senior Staff",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/710056857724649543/ea2a041edb107924ed7efd351b39f3ff.png?size=512"
+            },
+            {
+              "id": "1159484226408808601",
+              "name": "noelpapa.",
+              "discriminator": "0000",
+              "nickname": "노엘파파",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/1159484226408808601/21bda501a958287cc98256a959353a9a.png?size=512"
+            },
+            {
+              "id": "1164833024970592277",
+              "name": "thelogicaltrader_06755",
+              "discriminator": "0000",
+              "nickname": "Thelogicaltrader",
+              "color": "#F47FFF",
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/1164833024970592277/e36f841e35ebc958a94e442e3252c062.png?size=512"
+            },
+            {
+              "id": "1198745015762026576",
+              "name": "yinanida",
+              "discriminator": "0000",
+              "nickname": "보리스",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/1198745015762026576/6577fc929ef07028395c4525c3c2e381.png?size=512"
+            }
+          ]
+        }
+      ],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1382338578134073535",
+      "type": "Default",
+      "timestamp": "2025-06-11T21:39:59.636+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "오늘 FL은 SHOP, AVGO, ALAB, MSTR 입니다",
+      "author": {
+        "id": "262207764229652480",
+        "name": "inod1",
+        "discriminator": "0000",
+        "nickname": "슈트",
+        "color": "#E91E63",
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1159526956828737617",
+            "name": "Admin",
+            "color": "#E91E63",
+            "position": 5
+          },
+          {
+            "id": "1159573012375412800",
+            "name": "Server Booster",
+            "color": "#F47FFF",
+            "position": 4
+          }
+        ],
+        "avatarUrl": "https://cdn.discordapp.com/guilds/1159481575235403857/users/262207764229652480/avatars/a3b1264a93164ca098c338b0adb340f9.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83E\uDDD0",
+            "code": "face_with_monocle",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f9d0.svg"
+          },
+          "count": 12,
+          "users": [
+            {
+              "id": "334332754001133569",
+              "name": "helloworldan",
+              "discriminator": "0000",
+              "nickname": "helloworldan",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/334332754001133569/068cf3ecf4ebad15350b22742e0ddacb.png?size=512"
+            },
+            {
+              "id": "444896933711183882",
+              "name": "committtrading",
+              "discriminator": "0000",
+              "nickname": "스킨",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/444896933711183882/d83a9cb566374bfa1bb9817818e73507.png?size=512"
+            },
+            {
+              "id": "710056857724649543",
+              "name": "senior_staff",
+              "discriminator": "0000",
+              "nickname": "Senior Staff",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/710056857724649543/ea2a041edb107924ed7efd351b39f3ff.png?size=512"
+            },
+            {
+              "id": "941956177284198440",
+              "name": "ko_sangdodongmin",
+              "discriminator": "0000",
+              "nickname": "상도동민",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/941956177284198440/f7f2e9361e8a54ce6e72580ac7b967af.png?size=512"
+            },
+            {
+              "id": "1061257667928145927",
+              "name": "banzi_seo",
+              "discriminator": "0000",
+              "nickname": "Banzi",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/1061257667928145927/5f7e3998746de44d66ad600fac62223b.png?size=512"
+            },
+            {
+              "id": "1065347235598061658",
+              "name": "voldemot.",
+              "discriminator": "0000",
+              "nickname": "VoldemoT",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/1065347235598061658/64167a218734280634ee0a3e0ffebf82.png?size=512"
+            },
+            {
+              "id": "1159484226408808601",
+              "name": "noelpapa.",
+              "discriminator": "0000",
+              "nickname": "노엘파파",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/1159484226408808601/21bda501a958287cc98256a959353a9a.png?size=512"
+            },
+            {
+              "id": "1159515475580047491",
+              "name": "bu_ri.",
+              "discriminator": "0000",
+              "nickname": "부리",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/1159515475580047491/420f294758c51dbd1b71bec5fc798167.png?size=512"
+            },
+            {
+              "id": "1164832871287099443",
+              "name": "gosng88",
+              "discriminator": "0000",
+              "nickname": "초록파도",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/1164832871287099443/03e668ad490a5cc3fe30a36e7a858a5c.png?size=512"
+            },
+            {
+              "id": "1164833024970592277",
+              "name": "thelogicaltrader_06755",
+              "discriminator": "0000",
+              "nickname": "Thelogicaltrader",
+              "color": "#F47FFF",
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/1164833024970592277/e36f841e35ebc958a94e442e3252c062.png?size=512"
+            },
+            {
+              "id": "1184043890093867042",
+              "name": "loisir_",
+              "discriminator": "0000",
+              "nickname": "Loisir",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/1184043890093867042/0321b0ff4522d689b6271c850b00d149.png?size=512"
+            },
+            {
+              "id": "1198745015762026576",
+              "name": "yinanida",
+              "discriminator": "0000",
+              "nickname": "보리스",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/1198745015762026576/6577fc929ef07028395c4525c3c2e381.png?size=512"
+            }
+          ]
+        },
+        {
+          "emoji": {
+            "id": "1159673110895804468",
+            "name": "YES",
+            "code": "YES",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/1159673110895804468.png"
+          },
+          "count": 7,
+          "users": [
+            {
+              "id": "542998370952675328",
+              "name": "seungyong6080",
+              "discriminator": "0000",
+              "nickname": "HEISENBERG",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/embed/avatars/1.png"
+            },
+            {
+              "id": "556038232819761152",
+              "name": "bonanza0323",
+              "discriminator": "0000",
+              "nickname": "루키",
+              "color": "#1ABC9C",
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/556038232819761152/e7da2bae1b4b4fefb2fbaccc45451504.png?size=512"
+            },
+            {
+              "id": "941956177284198440",
+              "name": "ko_sangdodongmin",
+              "discriminator": "0000",
+              "nickname": "상도동민",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/941956177284198440/f7f2e9361e8a54ce6e72580ac7b967af.png?size=512"
+            },
+            {
+              "id": "1061257667928145927",
+              "name": "banzi_seo",
+              "discriminator": "0000",
+              "nickname": "Banzi",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/1061257667928145927/5f7e3998746de44d66ad600fac62223b.png?size=512"
+            },
+            {
+              "id": "1159484226408808601",
+              "name": "noelpapa.",
+              "discriminator": "0000",
+              "nickname": "노엘파파",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/1159484226408808601/21bda501a958287cc98256a959353a9a.png?size=512"
+            },
+            {
+              "id": "1198745015762026576",
+              "name": "yinanida",
+              "discriminator": "0000",
+              "nickname": "보리스",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/1198745015762026576/6577fc929ef07028395c4525c3c2e381.png?size=512"
+            },
+            {
+              "id": "1325772896722747454",
+              "name": "cwy0904",
+              "discriminator": "0000",
+              "nickname": "cwy",
+              "color": "#1ABC9C",
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/1325772896722747454/8569adcbd36c70a7578c017bf5604ea5.png?size=512"
+            }
+          ]
+        },
+        {
+          "emoji": {
+            "id": "1159591859883081790",
+            "name": "ThankYou",
+            "code": "ThankYou",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/1159591859883081790.png"
+          },
+          "count": 6,
+          "users": [
+            {
+              "id": "719571841630339092",
+              "name": "xylosti",
+              "discriminator": "0000",
+              "nickname": "xyloz",
+              "color": "#E91E63",
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/719571841630339092/57366738a6e8363070a3d6d1012b3a5c.png?size=512"
+            },
+            {
+              "id": "1061257667928145927",
+              "name": "banzi_seo",
+              "discriminator": "0000",
+              "nickname": "Banzi",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/1061257667928145927/5f7e3998746de44d66ad600fac62223b.png?size=512"
+            },
+            {
+              "id": "1159484226408808601",
+              "name": "noelpapa.",
+              "discriminator": "0000",
+              "nickname": "노엘파파",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/1159484226408808601/21bda501a958287cc98256a959353a9a.png?size=512"
+            },
+            {
+              "id": "1164832871287099443",
+              "name": "gosng88",
+              "discriminator": "0000",
+              "nickname": "초록파도",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/1164832871287099443/03e668ad490a5cc3fe30a36e7a858a5c.png?size=512"
+            },
+            {
+              "id": "1164833024970592277",
+              "name": "thelogicaltrader_06755",
+              "discriminator": "0000",
+              "nickname": "Thelogicaltrader",
+              "color": "#F47FFF",
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/1164833024970592277/e36f841e35ebc958a94e442e3252c062.png?size=512"
+            },
+            {
+              "id": "1198745015762026576",
+              "name": "yinanida",
+              "discriminator": "0000",
+              "nickname": "보리스",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/1198745015762026576/6577fc929ef07028395c4525c3c2e381.png?size=512"
+            }
+          ]
+        }
+      ],
+      "mentions": [],
+      "inlineEmojis": []
+    }
+  ],
+  "messageCount": 24
+}
