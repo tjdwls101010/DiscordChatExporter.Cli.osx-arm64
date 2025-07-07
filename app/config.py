@@ -21,14 +21,10 @@ else:
 
 # Discord 설정
 DISCORD_TOKEN = os.getenv('DISCORD_TOKEN')
-if not DISCORD_TOKEN:
-    raise ValueError("❌ DISCORD_TOKEN이 설정되지 않았습니다!")
 
 # Supabase 설정
 SUPABASE_URL = os.getenv('SUPABASE_URL', 'https://tmywnnshruqmoaempwwi.supabase.co')
 SUPABASE_KEY = os.getenv('SUPABASE_KEY')
-if not SUPABASE_KEY:
-    raise ValueError("❌ SUPABASE_KEY가 설정되지 않았습니다!")
 
 # 기본 채널 설정
 DEFAULT_CHANNEL_ID = os.getenv('DEFAULT_CHANNEL_ID', '1159487918512017488')
@@ -53,7 +49,9 @@ def validate_config():
         missing.append('SUPABASE_KEY')
     
     if missing:
-        raise ValueError(f"❌ 다음 환경변수들이 설정되지 않았습니다: {', '.join(missing)}")
+        print(f"⚠️ 다음 환경변수들이 설정되지 않았습니다: {', '.join(missing)}")
+        print("💡 이 변수들은 /collect 엔드포인트 사용 시 필요합니다.")
+        return False
     
     return True
 
@@ -61,9 +59,15 @@ def validate_config():
 def print_config():
     """현재 설정 정보를 안전하게 출력"""
     print("🔧 현재 설정:")
-    print(f"  ├─ Discord 토큰: {DISCORD_TOKEN[:20]}...{DISCORD_TOKEN[-10:] if len(DISCORD_TOKEN) > 30 else '***'}")
+    if DISCORD_TOKEN:
+        print(f"  ├─ Discord 토큰: {DISCORD_TOKEN[:20]}...{DISCORD_TOKEN[-10:] if len(DISCORD_TOKEN) > 30 else '***'}")
+    else:
+        print(f"  ├─ Discord 토큰: ❌ 설정되지 않음")
     print(f"  ├─ Supabase URL: {SUPABASE_URL}")
-    print(f"  ├─ Supabase 키: {SUPABASE_KEY[:20]}...{SUPABASE_KEY[-10:] if len(SUPABASE_KEY) > 30 else '***'}")
+    if SUPABASE_KEY:
+        print(f"  ├─ Supabase 키: {SUPABASE_KEY[:20]}...{SUPABASE_KEY[-10:] if len(SUPABASE_KEY) > 30 else '***'}")
+    else:
+        print(f"  ├─ Supabase 키: ❌ 설정되지 않음")
     print(f"  ├─ 기본 채널: {DEFAULT_CHANNEL_ID}")
     print(f"  ├─ 기본 서버: {DEFAULT_SERVER_ID}")
     print(f"  ├─ API 호스트: {API_HOST}")
