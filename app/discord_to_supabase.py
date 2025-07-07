@@ -34,7 +34,7 @@ class DiscordToSupabaseCollector:
         """
         self.supabase: Client = create_client(supabase_url, supabase_key)
         self.discord_token = discord_token
-        self.discord_exporter_path = "./bin/DiscordChatExporter.Cli"
+        self.discord_exporter_path = "./bin/DiscordChatExporter.Cli/DiscordChatExporter.Cli"
         
     def export_messages(self, channel_id: str, hours: int = 1) -> str:
         """
@@ -58,6 +58,7 @@ class DiscordToSupabaseCollector:
         
         # DiscordChatExporter CLI 명령어
         cmd = [
+            "dotnet",
             self.discord_exporter_path,
             "export",
             "--channel", channel_id,
