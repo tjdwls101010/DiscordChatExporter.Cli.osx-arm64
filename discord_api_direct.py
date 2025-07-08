@@ -56,12 +56,15 @@ class DiscordAPICollector:
         
         # 시간 계산
         after_time = datetime.now(timezone.utc) - timedelta(hours=hours)
+        logger.info(f"🔍 디버깅: 메시지 필터링 기준 시간 - {after_time} (UTC)")
         
         url = f"https://discord.com/api/v10/channels/{channel_id}/messages"
         all_messages = []
         last_message_id = None
+        request_count = 0
         
         while True:
+            request_count += 1
             params = {'limit': limit}
             if last_message_id:
                 params['before'] = last_message_id
@@ -71,22 +74,38 @@ class DiscordAPICollector:
                 response.raise_for_status()
                 messages = response.json()
                 
+                # 디버깅을 위한 로깅 추가
+                logger.info(f"Discord API 응답 (첫 500자): {str(messages)[:500]}")
+                logger.info(f"🔍 디버깅: 요청 #{request_count} - 받은 메시지 개수: {len(messages)}")
+                
                 if not messages:
+                    logger.info("🔍 디버깅: 더 이상 메시지가 없음")
                     break
                     
                 # 시간 필터링
                 filtered_messages = []
-                for msg in messages:
+                should_break = False
+                for i, msg in enumerate(messages):
                     msg_time = datetime.fromisoformat(msg['timestamp'].replace('Z', '+00:00'))
                     if msg_time < after_time:
                         # 더 이상 오래된 메시지는 가져오지 않음
-                        return all_messages
+                        logger.info(f"🔍 디버깅: 메시지 #{i+1} 시간 초과 - {msg_time} < {after_time}")
+                        should_break = True
+                        break
                     filtered_messages.append(msg)
+                    if i < 3:  # 처음 3개 메시지의 시간만 로그
+                        logger.info(f"🔍 디버깅: 메시지 #{i+1} 시간 - {msg_time}")
                 
                 all_messages.extend(filtered_messages)
                 
+                # 시간 초과된 메시지를 만났거나, 더 이상 메시지가 없으면 종료
+                if should_break:
+                    logger.info(f"🔍 디버깅: 시간 초과로 인한 수집 종료. 총 수집된 메시지: {len(all_messages)}개")
+                    break
+                
                 # 다음 페이지를 위한 설정
                 if len(messages) < limit:
+                    logger.info(f"🔍 디버깅: 마지막 페이지 도달 (메시지 개수: {len(messages)} < {limit})")
                     break
                 last_message_id = messages[-1]['id']
                 
@@ -202,6 +221,10 @@ class DiscordAPICollector:
         """
         start_time = datetime.now(timezone.utc)
         logger.info(f"Starting collection for channel {channel_id}, last {hours} hours")
+        
+        # 디버깅을 위한 시간 설정 로그 추가
+        after_time = start_time - timedelta(hours=hours)
+        logger.info(f"🔍 디버깅: 수집 시간 설정 - {hours}시간 (시작: {start_time}, 기준: {after_time})")
         
         try:
             # 1. 메시지 가져오기

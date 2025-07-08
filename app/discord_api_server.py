@@ -48,7 +48,7 @@ class HealthResponse(BaseModel):
     timestamp: str
 
 # 환경변수에서 설정 로드
-from config import SUPABASE_URL, SUPABASE_KEY, DISCORD_TOKEN, DEFAULT_CHANNEL_ID
+from config import SUPABASE_URL, SUPABASE_KEY, DISCORD_TOKEN, DEFAULT_CHANNEL_ID, COLLECTION_HOURS
 
 # 작업 상태 저장
 tasks_status = {}
@@ -70,9 +70,6 @@ async def root():
 @app.get("/health", response_model=HealthResponse)
 async def health_check():
     """서버 헬스 체크"""
-    # Discord CLI 사용 가능 여부 확인
-    discord_cli_available = os.path.exists("./bin/DiscordChatExporter.Cli")
-    
     # Supabase 연결 테스트
     supabase_connected = True
     try:
@@ -82,13 +79,15 @@ async def health_check():
             discord_token=DISCORD_TOKEN
         )
         # 간단한 연결 테스트
+        # 실제로는 더 정교한 핑 또는 쿼리가 필요할 수 있습니다.
+        # 예: collector.supabase.rpc('health_check', {}).execute()
         supabase_connected = True
     except Exception:
         supabase_connected = False
     
     return HealthResponse(
-        status="healthy" if discord_cli_available and supabase_connected else "warning",
-        discord_cli_available=discord_cli_available,
+        status="healthy" if supabase_connected else "warning",
+        discord_cli_available=False, # 더 이상 사용되지 않음
         supabase_connected=supabase_connected,
         timestamp=datetime.now().isoformat()
     )
@@ -167,9 +166,13 @@ async def collect_messages_sync(request: CollectRequest):
         )
 
 @app.get("/collect/momentum", response_model=CollectResponse)
-async def collect_momentum_messages(hours: int = 1):
+async def collect_momentum_messages(hours: int = None):
     """Momentum Messengers 서버 메시지 수집 (고정 설정)"""
     CHANNEL_ID = DEFAULT_CHANNEL_ID  # main-stock-chat
+    
+    # hours가 지정되지 않으면 config.env의 COLLECTION_HOURS 사용
+    if hours is None:
+        hours = COLLECTION_HOURS
     
     request = CollectRequest(
         channel_id=CHANNEL_ID,

@@ -1,0 +1,42 @@
+INFO:     Started server process [13866]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2025-07-08 13:56:05,697 - INFO - 🚀 전체 작업 시작: 채널 1159487918512017488 (최근 24시간)
+2025-07-08 13:56:05,704 - INFO - Starting collection for channel 1159487918512017488, last 24 hours
+2025-07-08 13:56:05,704 - INFO - 🔍 디버깅: 수집 시간 설정 - 24시간 (시작: 2025-07-08 04:56:05.704337+00:00, 기준: 2025-07-07 04:56:05.704337+00:00)
+2025-07-08 13:56:05,704 - INFO - Fetching messages from channel 1159487918512017488 for last 24 hours
+2025-07-08 13:56:05,704 - INFO - 🔍 디버깅: 메시지 필터링 기준 시간 - 2025-07-07 04:56:05.704462+00:00 (UTC)
+2025-07-08 13:56:06,212 - INFO - Discord API 응답 (첫 500자): [{'type': 0, 'content': '수고하셨습니다', 'mentions': [], 'mention_roles': [], 'attachments': [], 'embeds': [], 'timestamp': '2025-07-07T23:31:21.169000+00:00', 'edited_timestamp': None, 'flags': 0, 'components': [], 'id': '1391924582469996625', 'channel_id': '1159487918512017488', 'author': {'id': '1183422126531809410', 'username': 'haje0258', 'avatar': '157e517cdbf371a47aaead44675714a3', 'discriminator': '0', 'public_flags': 0, 'flags': 0, 'banner': None, 'accent_color': None, 'global_name': 'Haje', 
+2025-07-08 13:56:06,213 - INFO - 🔍 디버깅: 요청 #1 - 받은 메시지 개수: 100
+2025-07-08 13:56:06,213 - INFO - 🔍 디버깅: 메시지 #1 시간 - 2025-07-07 23:31:21.169000+00:00
+2025-07-08 13:56:06,213 - INFO - 🔍 디버깅: 메시지 #2 시간 - 2025-07-07 23:26:39.575000+00:00
+2025-07-08 13:56:06,213 - INFO - 🔍 디버깅: 메시지 #3 시간 - 2025-07-07 23:22:16.560000+00:00
+2025-07-08 13:56:06,213 - INFO - 🔍 디버깅: 메시지 #92 시간 초과 - 2025-07-07 02:19:53.972000+00:00 < 2025-07-07 04:56:05.704462+00:00
+2025-07-08 13:56:06,213 - INFO - 🔍 디버깅: 시간 초과로 인한 수집 종료. 총 수집된 메시지: 91개
+2025-07-08 13:56:06,213 - INFO - Total fetched: 91 messages
+2025-07-08 13:56:07,088 - INFO - Saving 91 messages to Supabase
+2025-07-08 13:56:08,077 - INFO - HTTP Request: POST https://tmywnnshruqmoaempwwi.supabase.co/rest/v1/discord_messages?on_conflict=id&columns=%22embeds%22%2C%22channel_id%22%2C%22author_name%22%2C%22channel_name%22%2C%22reactions%22%2C%22reference_message_id%22%2C%22author_avatar%22%2C%22id%22%2C%22is_pinned%22%2C%22author_id%22%2C%22server_name%22%2C%22mentions%22%2C%22attachments%22%2C%22message_type%22%2C%22server_id%22%2C%22content%22%2C%22timestamp%22%2C%22author_discriminator%22 "HTTP/2 201 Created"
+2025-07-08 13:56:08,081 - INFO - Saved batch 1: 50 messages
+2025-07-08 13:56:08,471 - INFO - HTTP Request: POST https://tmywnnshruqmoaempwwi.supabase.co/rest/v1/discord_messages?on_conflict=id&columns=%22embeds%22%2C%22channel_id%22%2C%22author_name%22%2C%22channel_name%22%2C%22reactions%22%2C%22reference_message_id%22%2C%22author_avatar%22%2C%22id%22%2C%22is_pinned%22%2C%22author_id%22%2C%22server_name%22%2C%22mentions%22%2C%22attachments%22%2C%22message_type%22%2C%22server_id%22%2C%22content%22%2C%22timestamp%22%2C%22author_discriminator%22 "HTTP/2 201 Created"
+2025-07-08 13:56:08,472 - INFO - Saved batch 2: 41 messages
+2025-07-08 13:56:08,472 - INFO - Successfully saved 91 messages
+2025-07-08 13:56:08,472 - INFO - Collection completed successfully: {'status': 'success', 'channel_id': '1159487918512017488', 'channel_name': '💬main-stock-chat', 'server_name': 'Momentum Messengers', 'hours': 24, 'messages_fetched': 91, 'messages_saved': 91, 'execution_time': '0:00:02.768152', 'timestamp': '2025-07-08T04:56:05.704337+00:00'}
+2025-07-08 13:56:08,472 - INFO - ✅ 전체 작업 완료 (총 소요시간: 2.77초)
+2025-07-08 13:56:08,472 - INFO - 📊 수집 결과: 91개 메시지
+✅ 환경변수 로드됨: /Users/seongjin/Cursor/Discord/config.env
+🚀 Discord Collector API Server
+==================================================
+📊 API 엔드포인트:
+  ├─ GET  /          : 서버 상태
+  ├─ GET  /health    : 헬스 체크
+  ├─ POST /collect   : 메시지 수집 (비동기)
+  ├─ POST /collect/sync : 메시지 수집 (동기)
+  ├─ GET  /collect/momentum : Momentum 서버 수집
+  ├─ GET  /tasks/{id}: 작업 상태 조회
+  └─ GET  /tasks     : 모든 작업 목록
+==================================================
+🌐 서버 주소: http://localhost:8000
+📝 API 문서: http://localhost:8000/docs
+==================================================
+INFO:     127.0.0.1:52365 - "GET /collect/momentum HTTP/1.1" 200 OK
