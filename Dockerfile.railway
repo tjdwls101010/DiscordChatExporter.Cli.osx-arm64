@@ -1,27 +1,11 @@
-# Railway 최적화 Dockerfile
-FROM python:3.11-bookworm
+# Railway 최적화 Dockerfile (Discord API 직접 호출 버전)
+FROM python:3.11-slim
 
-# .NET 8.0 Runtime 설치 (DiscordChatExporter 실행용)
+# 기본 시스템 패키지 설치
 RUN apt-get update && apt-get install -y \
-    wget \
     curl \
     ca-certificates \
-    libicu-dev \
-    libssl-dev \
     && rm -rf /var/lib/apt/lists/*
-
-# .NET 8.0 AspNet Core Runtime 설치
-RUN wget https://dot.net/v1/dotnet-install.sh -O dotnet-install.sh \
-    && chmod +x dotnet-install.sh \
-    && ./dotnet-install.sh --channel 8.0 --runtime aspnetcore --install-dir /usr/share/dotnet \
-    && rm dotnet-install.sh
-
-# .NET 런타임 설치 확인
-RUN dotnet --info
-
-# .NET을 PATH에 추가
-ENV PATH="/usr/share/dotnet:${PATH}"
-ENV DOTNET_ROOT="/usr/share/dotnet"
 
 # 작업 디렉토리 설정
 WORKDIR /app
@@ -31,24 +15,20 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 # 애플리케이션 코드 복사
-COPY ./app .
-
-# unzip 유틸리티 설치
-RUN apt-get update && apt-get install -y unzip
-
-# DiscordChatExporter CLI (Linux x64) 다운로드 및 압축 해제
-RUN wget https://github.com/Tyrrrz/DiscordChatExporter/releases/download/2.46/DiscordChatExporter.Cli.linux-x64.zip -O /tmp/DiscordChatExporter.Cli.zip     && unzip /tmp/DiscordChatExporter.Cli.zip -d /app/bin/DiscordChatExporter.Cli/     && rm /tmp/DiscordChatExporter.Cli.zip
-
-# DiscordChatExporter CLI 실행 권한 부여
-RUN chmod +x /app/bin/DiscordChatExporter.Cli/DiscordChatExporter.Cli
+COPY ./app ./app
+COPY ./discord_api_direct.py .
+COPY ./config.env .
 
 # Railway 포트 환경변수 처리를 위한 스크립트 생성
 RUN echo '#!/bin/bash\n\
 export PORT=${PORT:-8000}\n\
-echo "Starting server on port $PORT"\n\
-exec uvicorn discord_api_server:app --host 0.0.0.0 --port $PORT' > start.sh && \
+echo "🚀 Starting Discord Collector API on port $PORT"\n\
+echo "📝 Environment: Railway Deployment"\n\
+cd /app\n\
+exec python -m uvicorn app.discord_api_server:app --host 0.0.0.0 --port $PORT' > start.sh && \
 chmod +x start.sh
 
+# 포트 노출
 EXPOSE 8000
 
 # Railway에서 자동으로 설정하는 PORT 환경변수 사용
