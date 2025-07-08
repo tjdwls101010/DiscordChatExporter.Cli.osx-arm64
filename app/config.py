@@ -9,7 +9,9 @@ from dotenv import load_dotenv
 from pathlib import Path
 
 # .env 파일 로드 (config.env 파일 우선, 없으면 .env 파일)
-env_file = Path(__file__).parent / "config.env"
+env_file = Path(__file__).parent.parent / "config.env"
+if not env_file.exists():
+    env_file = Path(__file__).parent / "config.env"
 if not env_file.exists():
     env_file = Path(__file__).parent / ".env"
 

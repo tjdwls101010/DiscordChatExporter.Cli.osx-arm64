@@ -156,7 +156,7 @@ async def collect_messages_sync(request: CollectRequest):
         return CollectResponse(
             status="completed",
             message=f"메시지 수집이 완료되었습니다.",
-            messages_count=getattr(result, 'messages_count', None),
+            messages_count=result.get('messages_count'),
             execution_time=execution_time
         )
         
@@ -212,7 +212,7 @@ async def run_collection_task(task_id: str, channel_id: str, hours: int):
             "status": "completed",
             "end_time": end_time,
             "execution_time": str(end_time - tasks_status[task_id]["start_time"]),
-            "messages_count": getattr(result, 'messages_count', 0)
+            "messages_count": result.get('messages_count', 0)
         })
         
         # 글로벌 상태 업데이트
